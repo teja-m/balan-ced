@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768pxpx ) {
+@media only screen and (max-width: 992px ) {
 	.background{
         width: calc(70% - 140px);
     }
