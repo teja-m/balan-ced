@@ -1,3 +1,13 @@
+@media only screen and (max-width: 600px ) {
+	.background{
+        width: calc(70% - 140px);
+    }
+    .section{
+        width: 30%;
+    }
+}
+
+
 html {
     background: linear-gradient(135deg,  white,#F3F3F3);
     font-family: 'Rubik', sans-serif;
@@ -53,11 +63,3 @@ margin: 0px;
     font-weight: 500;
 }
 
-@media only screen and (min-width: 600px ) {
-	.background{
-        width: calc(70% - 140px);
-    }
-    .section{
-        width: 30%;
-    }
-}
