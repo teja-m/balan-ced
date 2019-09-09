@@ -28,7 +28,6 @@ margin: 0px;
 }
 
 .section{
-    width: 30%;
     padding: 70px 70px 0px 70px;
     float: left;
     position: relative;
@@ -38,7 +37,6 @@ margin: 0px;
 }
 
 .background{
-    width: calc(70% - 140px);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,4 +51,13 @@ margin: 0px;
 
 .lead{
     font-weight: 500;
+}
+
+@media only screen and (min-width: 600px ) {
+	.background{
+        width: calc(70% - 140px);
+    }
+    .section{
+        width: 30%;
+    }
 }
